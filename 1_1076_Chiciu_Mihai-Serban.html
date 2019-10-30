@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href=".\lib\bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="1_1076_Chiciu_Mihai-Serban.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>Online Photo Editor</title>
+    </head>
+    <body>
+        <nav id="navbar" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img id="top-icon" src=".\media\images\baseline_monochrome_photos_black_18dp.png">
+                <span id="nav-title">Mini Photo Editor</span>
+            </a>
+        </nav>
+        <div class="container">
+            <div class="container">
+            <div class="row">
+                    <div id="tools" class="tools m-auto">
+                            <a id="btn-line"><img src=".\media\images\oblique-line-icon.png"></a>
+                            <a id="btn-rectangle"><img src=".\media\images\rectangle-icon.png"></a>
+                            <a id="btn-circle"><img src=".\media\images\circle-icon.png"></a>
+                            <a id="btn-star"><img src=".\media\images\star-icon.png"></a>
+                            <a><input id="btn-color-picker" type="color"></a>
+                    </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-11 m-auto">
+                    <canvas id="canvas" width="800" height="500"></canvas>
+                    <div class="my-4 text-center">
+                       <a id="save-button" type="button" class="btn btn-outline-success save-button"><img id="save-icon" src=".\media\images\save-icon.png"> Save</a>
+                    </div>
+                </div>        
+            </div>
+        </div>
+        <script type="text/javascript" src="1_1076_Chiciu_Mihai-Serban.js"></script>
+    </body>
+</html>

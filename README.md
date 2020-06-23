@@ -1,6 +1,4 @@
 # mini-photo-editor
-This repo is private temporarily because is a project for university and is yet to be graded
-
 This project uses HTML, CSS and pure JS.
 
 It is designed to drag and drop one image at a time. The top bar has the functionality to draw any of the geometric shapes provided and to choose the color of the shape you want to draw
